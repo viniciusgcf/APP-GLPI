@@ -8,7 +8,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.container}>
       <Card>
-        <Image style={styles.logo} source={require('/assets/logoGLPI.png')} />
+        <Image style={styles.logo} source={require('/../assets/logoGLPI.png')} />
           <Text style={styles.paragraph}>
             Insira seu login de acesso
           </Text>
